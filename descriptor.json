@@ -1,0 +1,16 @@
+{
+  "Descriptor": {
+    "UId": "0ab95c10-312d-41fe-8673-84754947fa51",
+    "PackageVersion": "7.8.0",
+    "Name": "DevPackageClio",
+    "ModifiedOnUtc": "/Date(1595407418000)/",
+    "Maintainer": "",
+    "DependsOn": [
+      {
+        "UId": "3f299622-2079-4a62-ba18-6d32c1d0d6af",
+        "PackageVersion": "7.8.0",
+        "Name": "SalesEnterprise_Marketing_ServiceEnt"
+      }
+    ]
+  }
+}
