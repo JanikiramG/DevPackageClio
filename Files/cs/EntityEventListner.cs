@@ -18,7 +18,7 @@ namespace DevPackageClio.Files.cs
             var contactName = entity.GetTypedColumnValue<string>("Name");
             var oldContactName = entity.GetTypedOldColumnValue<string>("Name");
             entity.SetColumnValue("Name", contactName + "Modified On" + DateTime.Now);
-            //tes
+            //test
         }
     }
 }
