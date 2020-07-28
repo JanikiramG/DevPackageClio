@@ -8,7 +8,7 @@ using Terrasoft.Core.Entities.Events;
 
 namespace DevPackageClio.Files.cs
 {
-    [EntityEventListener(SchemaName ="Contacts")]
+    [EntityEventListener(SchemaName ="Activity")]
     public class EntityEventListner: BaseEntityEventListener
     {
         public override void OnSaved(object sender, EntityAfterEventArgs e)

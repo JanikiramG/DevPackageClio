@@ -117,8 +117,14 @@
       <HintPath>packages\CreatioSDK.7.16.2.1600\lib\net40\Terrasoft.Web.Http.Abstractions.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
+    <ProjectReference Include="..\DevPackageClio.API\DevPackageClio.API.csproj">
+      <Project>{d2114773-3f1c-49a4-8001-f07dc05b52c2}</Project>
+      <Name>DevPackageClio.API</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Files\MyLogic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <!-- ##BpmonlineSDKMarker## -->
@@ -134,6 +140,9 @@
   <ItemGroup>
     <None Include="descriptor.json" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(TemplateBuilderTargets)" Condition="Exists('$(TemplateBuilderTargets)')" Label="TemplateBuilder" />
